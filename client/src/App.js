@@ -9,17 +9,18 @@ function App() {
   const clientId = '388251775099-mf8aj89q8qes30teengsddl4vvv0kj69.apps.googleusercontent.com';
   return (
 
-    <Routes>
-      <Route path="/" element={
-        <GoogleOAuthProvider clientId={clientId}>
-          <AccountProvider >
-            <Messenger />
-          </AccountProvider>
-        </GoogleOAuthProvider>} />
+    <GoogleOAuthProvider clientId={clientId}>
+      <AccountProvider >
+        <Messenger />
+      </AccountProvider>
+    </GoogleOAuthProvider>
+    // <Routes>
+    //   {/* <Route path="/" element={ */}
+    //   {/* // } /> */}
 
-      <Route path="/Stenography" element={<Stenography />} />
-      <Route path="/Massanger" element={<ChatDialog />} />
-    </Routes>
+    //   <Route path="/Stenography" element={<Stenography />} />
+    //   <Route path="/Massanger" element={<ChatDialog />} />
+    // </Routes>
 
   );
 }

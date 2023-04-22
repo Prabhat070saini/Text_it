@@ -166,6 +166,7 @@ export default function StenographyContextProvider({ children }) {
     decode,
     isImageUpload,
     secret,
+    setSecret,
   };
   return (
     <StenographyContext.Provider value={value}>

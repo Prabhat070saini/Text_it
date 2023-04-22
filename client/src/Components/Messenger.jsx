@@ -3,7 +3,8 @@ import { AppBar, Toolbar, styled, Box } from "@mui/material";
 import ChatDialog from "./chat/ChatDialog";
 import { useContext } from "react";
 import { AccountContext } from "../context/AccountProvider";
-
+import { Routes, Route } from "react-router-dom";
+import Stenography from "./stenography/Stenography";
 const Component = styled(Box)`
   height: 100vh;
   background: #dcdcdc;
@@ -28,10 +29,20 @@ const Messenger = () => {
     <Component>
       {account ? (
         <>
-          <Header>
-            <Toolbar></Toolbar>
-          </Header>
-          <ChatDialog />
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <Header>
+                    <Toolbar></Toolbar>
+                  </Header>
+                  <ChatDialog />
+                </>
+              }
+            />
+            <Route path="/Stenography" element={<Stenography />} />
+          </Routes>
         </>
       ) : (
         <>
