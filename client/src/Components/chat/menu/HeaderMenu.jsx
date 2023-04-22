@@ -2,7 +2,7 @@ import React from "react";
 import { MoreVert } from "@mui/icons-material";
 import { Menu, MenuItem, styled } from "@mui/material";
 import { useState, useContext } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 const MenuOption = styled(MenuItem)`
     font-size: 14px
@@ -54,11 +54,10 @@ const HeaderMenu = ({ setOpenDrawer }) => {
         >
           Profile
         </MenuOption>
-        <NavLink to="/Stenography">
+        <Link to="/Stenography" style={{ textDecoration: "none" }}>
           {" "}
-          <MenuOption onClick={() => {}}>Stenography</MenuOption>
-        </NavLink>
-
+          <MenuOption>Stenography</MenuOption>
+        </Link>
         <MenuOption
           onClick={() => {
             handleClose();
