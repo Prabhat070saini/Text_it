@@ -53,10 +53,10 @@ export default function Stenography() {
                         {option === 'encode' && <Button style={{ margin: '1rem' }} onClick={encode} variant="contained">Encode</Button>}
                         {option === 'decode' && <Button style={{ margin: '1rem' }} onClick={decode} variant="contained">Decode</Button>}
                         {option !== 'home' && <Button style={{ margin: '1rem' }} name='home' onClick={handleClick} variant="contained">Return</Button>}
-                        {
-                            secret !== " " && <p>{secret}</p>
-                        }
                     </div>
+                    {
+                        secret !== "" ? (<div className='Decodedmassage_container'> <p className='Decodedmassage'><span>Decoded Massage:  </span>{secret}</p></div>) : ("")
+                    }
                 </div>
             </div>
 
