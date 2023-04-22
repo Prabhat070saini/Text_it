@@ -1,8 +1,8 @@
 import React from "react";
 import { MoreVert } from "@mui/icons-material";
 import { Menu, MenuItem, styled } from "@mui/material";
-import { useState, useContext } from "react";
-import { NavLink, Link } from "react-router-dom";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const MenuOption = styled(MenuItem)`
     font-size: 14px
