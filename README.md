@@ -21,7 +21,7 @@ Technologies Used
 
     React
     Node.js
-    Socket.io
+    MongoDB
     Express
     Image Steganography Algorithm
 
