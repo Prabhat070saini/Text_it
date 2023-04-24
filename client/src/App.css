@@ -83,7 +83,7 @@ img {
 }
 
 canvas,
-img {
+.imagedisplay {
   display: none;
 }
 
