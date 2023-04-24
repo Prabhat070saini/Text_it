@@ -39,7 +39,7 @@ export default function Stenography() {
                 </div>
                 <div>
 
-                    <img id="encoded-image" alt='' width={450} height={450} className='imagedisplay'></img>
+                    <img id="encoded-image" alt='' width={450} height={450} className='imagedisplay imagedisplayshow' ></img>
                     <canvas id="canvas" width={450} height={450}></canvas>
                 </div>
                 <div className='allbtn'>
