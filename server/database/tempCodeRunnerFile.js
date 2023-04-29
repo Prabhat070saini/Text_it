@@ -1,0 +1,1 @@
+ `mongodb://${USERNAME}:${PASSWORD}@ac-nx2pwxa-shard-00-00.wczry1x.mongodb.net:27017,ac-nx2pwxa-shard-00-01.wczry1x.mongodb.net:27017,ac-nx2pwxa-shard-00-02.wczry1x.mongodb.net:27017/?ssl=true&replicaSet=atlas-oik65k-shard-0&authSource=admin&retryWrites=true&w=majority`
