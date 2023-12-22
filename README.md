@@ -29,11 +29,46 @@ Getting Started
 
 To get started with the web chat application, follow these steps:
 
-    Clone the repository to your local machine
-    Install the necessary dependencies using npm install
-    Start the server using npm start
-    Open the application in your browser at http://localhost:3000
+### Frontend (public folder):
 
-Usage
+1. Clone the repository to your local machine:
+   ```bash
+   git clone [<repository_url>](https://github.com/Prabhat070saini/Text_it)
+   ```
+
+2. Navigate to the "public" folder:
+   ```bash
+   cd public
+   ```
+
+3. Install the necessary dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the frontend server:
+   ```bash
+   npm start
+   ```
+
+### Backend (server folder):
+
+1. Navigate to the "server" folder:
+   ```bash
+   cd server
+   ```
+
+2. Install the necessary dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the backend server:
+   ```bash
+   npm start
+   ```
+
+4. Open the application in your browser at http://localhost:3000
+
 
 To use the web chat application, simply create an account, log in, and start chatting with other users. You can send messages and images securely using the image steganography algorithm.
