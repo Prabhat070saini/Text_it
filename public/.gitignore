@@ -1,0 +1,24 @@
+# Ignore .env files
+.env
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs and other generated files
+logs/
+*.log
+npm-debug.log*
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Jest coverage directory
+coverage/
+
+# Ignore build output
+build/
+dist/
